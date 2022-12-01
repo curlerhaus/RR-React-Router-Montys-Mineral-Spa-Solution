@@ -58,3 +58,30 @@ function App() {
 }
 
 export default App;
+
+// Modal Code from Tom
+// export default function Home () {
+//   const [showModal, setShowModal] = useState(false)
+
+//   if(showModal === true) {
+//       return(
+//           <div>
+//           <Modal.Dialog style={{backgroundColor: 'red'}}>
+//               <Modal.Header closeButton>
+//               <Modal.Title>Modal title</Modal.Title>
+//               </Modal.Header>
+
+//               <Modal.Body>
+//               <p>Modal body text goes here.</p>
+//               </Modal.Body>
+
+//               <Modal.Footer>
+//               <Button onClick={() => {setShowModal(false)}} variant="secondary">Close</Button>
+//               <Button variant="primary">Save changes</Button>
+//               </Modal.Footer>
+//         </Modal.Dialog>
+//         </div>
+//       )
+//   } else {
+//       return (<button onClick={() => {setShowModal(true)}}>Open Modal</button>)
+//   }
